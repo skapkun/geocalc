@@ -20,7 +20,7 @@ public class TrapezioFragment extends Fragment {
     private Button btnCalcular;
 
     public TrapezioFragment() {
-        // Construtor vazio obrigatório.
+
     }
 
     @Override
@@ -49,14 +49,14 @@ public class TrapezioFragment extends Fragment {
 
         double tamanhoTrapezio = ((valorBaseMaior + valorBaseMenor) * valorAltura) / 2;
 
-        // Cria o AlertDialog para exibir o resultado
+
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle("Resultado");
         builder.setMessage("O tamanho do trapézio é: " + tamanhoTrapezio);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // Opcional: Adicione um código aqui para lidar com o clique no botão OK, se necessário
+
             }
         });
 

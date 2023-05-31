@@ -19,7 +19,7 @@ public class LosangoFragment extends Fragment {
     private Button btnCalcular;
 
     public LosangoFragment() {
-        // Construtor vazio obrigatório.
+        
     }
 
     @Override
@@ -52,7 +52,7 @@ public class LosangoFragment extends Fragment {
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // Opcional: Adicione um código aqui para lidar com o clique no botão OK, se necessário
+
             }
         });
 
